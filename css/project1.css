@@ -1,0 +1,162 @@
+#projecten {
+	background-color:#FFF;
+	width: 780px;
+	height: 700px; /*450px*/
+	display: block;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	margin: auto;
+	font: normal normal normal 12px Verdana, sans-serif;
+	position: relative;
+		
+}
+
+#projecten header {
+	background-color:#78A7FA;
+	font: normal normal normal 12px Verdana, sans-serif;
+	height: 80px;
+	position:relative;
+	top: -18px;	
+	padding-left: 10px;
+	
+}
+
+#projecten #projectheaderextra {
+	padding-left: 0px;
+}
+
+
+#projecten .mouseenterhead {
+	background-color:#347CFA;
+
+}
+
+
+#projecten #achtergrondtabjes {
+	background-color: #B1FCE1;
+	display: block;
+	width: 100%;
+	height: 39px;
+	-webkit-border-radius: 25px 25px 0px 0px;
+	-moz-border-radius: 25px; 25px 0px 0px
+	border-radius: 25px 25px 0px 0px;
+}
+	
+
+#projecten p {
+	width: 550px;
+	float:left;
+	padding-left: 10px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#rand {
+	font: normal normal normal 12px Verdana, sans-serif;
+	background-color:#B1FCE1;
+	width: 800px;
+	height: 730px; /*500px*/
+	padding: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	margin:auto;
+	overflow:auto;
+}
+
+#rand #foto {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin: 0px 0px 5px 10px;
+	
+
+}
+
+#rand li {
+	padding: 10px;
+	display: inline;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: thick solid #6F98D1;
+	position: relative;
+	left: 200px;
+	top:50px;
+	}
+
+
+#rand nav {
+	height: 0px;
+}
+/*
+#rand li:first-child {
+	background-color:FFF;#B1FCE1
+}
+
+#rand li:hover {
+	background-color:FFF;
+}
+*/
+
+#projecten #tabjes li {
+	background-color:#B1CCFC;
+	
+	width:30%;
+	float: left;
+	-webkit-border-radius: 25px 25px 0px 0px;
+	-moz-border-radius: 25px 25px 0px 0px;
+	border-radius: 25px 25px 0px 0px;
+	border: none;
+	top:0px;
+	border-bottom: medium solid #6F98D1;
+	left: -40px;
+	
+	-webkit-box-shadow: inset 2px -2px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: inset 2px -2px 3px rgba(0, 0, 0, 0.2);
+	box-shadow:  inset 2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+
+#projecten #tabjes .mouseenter {
+	background-color:#347CFA;
+	border-bottom: medium solid #347CFA;
+	font-size: 14px;
+	-webkit-box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.3);
+	box-shadow:  3px -3px 3px rgba(0, 0, 0, 0.3);
+}
+
+#projecten #tabjes .highlight {
+	background-color:#78A7FA;
+	border-bottom: medium solid #78A7FA;
+	font-size: 14px;
+	-webkit-box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 3px -3px 3px rgba(0, 0, 0, 0.3);
+	box-shadow:  3px -3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#projecten #tabjes .tijdelijk {
+	background-color:#78A7FA;
+	border-bottom: medium solid #5980D4;
+	font-size: 12px;
+}
+
+
+
+#projecten aside {
+	float:right;
+	background-color:#B1FCE1;
+	padding: 0px 5px 10px 5px;
+	margin: 5px;
+	width:160px;
+	height: 400px; /*275*/
+	overflow: hidden;
+}
+
+#projecten aside p {
+	padding: 0;
+	width: 150px;
+}
