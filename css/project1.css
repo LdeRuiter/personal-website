@@ -146,13 +146,23 @@
 
 
 
-#projecten aside {
+#projecten #projectaside {
 	float:right;
 	background-color:#B1FCE1;
 	padding: 0px 5px 10px 5px;
 	margin: 5px;
 	width:160px;
-	height: 400px; /*275*/
+	height: 175px; 
+	overflow: hidden;
+}
+
+#projecten #groter {
+	height: 400px;
+	float:right;
+	background-color:#B1FCE1;
+	padding: 0px 5px 10px 5px;
+	margin: 5px;
+	width:160px;
 	overflow: hidden;
 }
 
